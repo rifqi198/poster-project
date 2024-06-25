@@ -43,6 +43,19 @@
   background-color: #df3030;
 }
 
+@media only screen and (max-width: 1028px){
+  .nav-container{
+    padding: 0.625rem 3rem;
+    width: 100%;
+    
+  }
+
+  .nav-search{
+    width: 30rem;
+    margin: 0rem 2rem;
+  }
+}
+
 @media only screen and (max-width: 768px){
   .nav-container{
     padding: 0.625rem 4rem;
@@ -68,6 +81,19 @@
 
   .nav-search{
     width: 15rem;
+    margin: 0rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .nav-container{
+    padding: 0.625rem 3rem;
+    width: 100%;
+    
+  }
+
+  .nav-search{
+    width: 11rem;
     margin: 0rem 2rem;
   }
 }
