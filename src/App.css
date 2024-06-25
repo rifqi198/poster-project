@@ -1,0 +1,13 @@
+*{
+  font-family: "DM Sans", sans-serif;
+  width: 100%;
+  color: white;
+}
+
+body{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #383838;
+}

@@ -1,0 +1,44 @@
+footer{
+    margin-top: auto;
+}
+
+.footer-container{
+    width: auto;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-web-name{
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+}
+
+.footer-credit{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 1rem;
+    /* border: 2px solid white; */
+    bottom: 0;
+}
+
+.footer-name{
+    font-size: 14px;
+}
+
+.footer-credit > * {
+    margin: 0;
+}
+
+.footer-social-container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.footer-social-logo{
+    width: 1.5rem;
+    height: 1.5rem;
+}

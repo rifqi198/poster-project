@@ -1,0 +1,46 @@
+.card-container{
+    display:flex;
+    flex-direction: column;
+    width: 10rem;
+}
+  
+.card-image{
+  border-radius: 0.313rem;
+  filter: brightness(75%);
+  cursor: pointer;
+  height: 15rem;
+}
+
+.card-image:hover{
+  filter: brightness(100%);
+}
+
+.card-title{
+  font-size: 1rem;
+  margin: 0;
+  margin-top: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-year{
+  margin: 0;
+  font-weight: normal;
+  font-size: 0.875rem;
+}
+
+@media only screen and (max-width: 768px){
+  .card-container{
+    width: 8rem;
+  }
+
+  .card-container > *{
+    font-size: 0.625rem;
+  }
+
+  .card-image{
+    height: 12rem;
+  }
+}
