@@ -21,7 +21,7 @@
 
 .nav-search{
   height: 0.1rem;
-  width: 50rem;
+  width: 52%;
   border-radius: 0.16rem;
   border: none;
   padding: 1rem;
@@ -51,7 +51,7 @@
   }
 
   .nav-search{
-    width: 30rem;
+    /* width: 30rem; */
     margin: 0rem 2rem;
   }
 }
@@ -67,7 +67,6 @@
   }
 
   .nav-search{
-    width: 31rem;
     margin: 0rem 2rem;
   }
 }
@@ -80,7 +79,7 @@
   }
 
   .nav-search{
-    width: 15rem;
+    /* width: 15rem; */
     margin: 0rem 2rem;
   }
 }
@@ -93,7 +92,7 @@
   }
 
   .nav-search{
-    width: 11rem;
+    /* width: 11rem; */
     margin: 0rem 2rem;
   }
 }
