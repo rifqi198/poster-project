@@ -1,4 +1,4 @@
-const API_KEY = 'f4d1128013cccb9a31326d89184ecfe4'
+const API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjOTY3NWQ3ZjZiZTY0Y2EwODFjNzJkYzIxYzQ5ZmY4MyIsIm5iZiI6MTcyOTk5NzkyMy43NDgxOTksInN1YiI6IjY2NjJiNTMzNzRhODY3NTllNGU5NjhmZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.0kS8WTVEILNFvurO-dL2MrJJciy17T1tkHosK0HgYhc'
 const BASE_URL = 'https://api.themoviedb.org/3'
 
 export const fetchMovies = async (page = 1) => {
